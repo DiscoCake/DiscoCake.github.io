@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <title>Odyssey!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Odyssey.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <!--navbar-->  <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="OdysseyHomePage.html">Odyssey</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li><a href="OdysseyHomePage.html">Home</a></li>
+              <li class="active"><a href="realinfopage.html">Info</a></li>
+              <li><a href="DownloadPage.html">Download</a></li>
+              <li><a href="ScreenshotPage.html">Screenshots</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="infopage.html">About Us</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div id="maintext" class="container">
+            <h1>Information</h1>
+        </div>
+        <div id="realinfotext" class="container">
+            <dl>
+                <dt>What is Odyssey?</dt>
+                <dd>- Odyssey is a location-based augmented reality game designed for Android using the Kudan AR library. The app was created using the device’s camera, GPS, and Kudan SDK in unison with a database holding relevant player and object information to provide a persistent world users can interact with</dd> <br>
+                <dt>What is augmented reality?</dt>
+                <dd>- Augmented reality is the process of overlaying virtual objects in the physical world. As cameras, sensors, and algorithms improve, smartphones are able to track physical space and virtual objects in it using computer vision </dd>
+                <dd>- Using tracking algorithms along with 3d models and location information, users are able to place objects and physically walk around them to see all sides of the model</dd>
+                <dd>- Traditional augmented reality tracking uses physical markers to identify an area to project a model onto, while Kudan uses Simultaneous Localization and Mapping (SLAM) to analyze the environment the camera is seeing</dd> <br>
+                <dt>What steps were taken to create Odyssey?</dt>
+                <dd>- Download and understand Kudan SDK and API</dd>
+                <dd>- Create interface to place models using the camera with Kudan</dd>
+                <dd>- Create DynamoDB database to store player login and gameplay information</dd>
+                <dd>- Integrate with AWS Cognito to authenticate users</dd>
+                <dd>- Import models and create interface for selecting multiple objects</dd>
+                <dd>- Create UI for signup, login, and menus</dd>
+                <dd>- Use device GPS to store model placement information (id, latitude, longitude) in database</dd>
+                <dd>- Implement combat system for fighting monsters</dd>
+                <dd>- Create system for creating and selecting quests</dd> <br>
+                <dt>What were the results of this project?</dt>
+                <dd>- Integrating various services (AR, location, camera) was difficult without previous exposure</dd>
+                <dd>- Difficulty obtaining quality Augmented Reality models that were free and compatible with our SDK</dd><br>
+                <dt>Conclusion</dt>
+                <dd>- We were able to create a diverse integrated system using modern techniques such as the version control system git and cloud computing from Amazon Web Services while maintaining best practices through code review and documentation</dd>
+                <dd>While augmented reality has room to improve, it is viable for consumer products such as Snapchat and video games, and has a bright future</dd><br>
+                <dt>References</dt>
+                <dd>- https://www.kudan.eu/</dd>
+                <dd>- https://developer.android.com/index.html</dd>
+                <dd>- https://aws.amazon.com/documentation/sdk-for-android/</dd>
+                
+            </dl> 
+        </div>
+        
+        
+        
+    
+    
+    </body>
+</html>

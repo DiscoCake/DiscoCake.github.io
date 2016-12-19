@@ -1,0 +1,51 @@
+body {
+/*    background-image: url("space.jpg"); */
+    background-color: lightblue;
+}
+
+#maintext{
+    text-align: center;
+    color: blue;
+    font-size: 250%;
+}
+
+#quotetext{
+    color: black;
+    font-size: 150%;
+    text-align: right;
+}
+
+#blurbtext{
+    color: red;
+    font-size: 150%;
+    float: right, bottom;
+}
+
+#blurbpic{
+    float: left;
+}
+
+#homepic{
+    display: block;
+    margin: auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+#realinfotext{
+    font-size: 150%;
+}
+
+#screenshots{
+    max-width: 50%;
+    margin: auto;
+}
+
+.carousel{
+    max-width:50%;
+    margin: auto;
+}
+
+#dd{
+    margin-left: 5;
+}
